@@ -82,10 +82,10 @@ export const BLOG_POSTS: BlogPost[] = [
     uid: 'blog-1',
   },
   {
-    title: 'Why I left my job to start my own company',
+    title: '开发踩坑日记',
     description:
-      'A deep dive into my decision to leave my job and start my own company',
-    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
+      '在尝试搭建中踩了很多坑，在此记录一下，，coding是场修行。',
+    link: '/blog/dev-diary',
     uid: 'blog-2',
   },
   {
