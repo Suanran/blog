@@ -1,7 +1,7 @@
 import { MongoClient } from 'mongodb';
 import { NextResponse } from 'next/server';
 
-const uri = process.env.MONGODB_URI || 'mongodb+srv://suanran:<suanran123>@learn.7rmos2o.mongodb.net/?retryWrites=true&w=majority&appName=Learn';
+const uri = process.env.MONGODB_URI || 'mongodb://mongo:nmSJNFFqUXDEbQgJbuvbbETTDzEviVQb@ballast.proxy.rlwy.net:56398';
 
 export async function GET() {
   try {
