@@ -39,7 +39,7 @@ export default function ChatPage() {
         <h1 className="text-2xl font-bold text-center">聊天室</h1>
         <div className="space-y-4">
           {messages.map((msg, i) => (
-            <div key={i} className="p-4 bg-gray-100 rounded-lg">
+            <div key={i} className="p-4 bg-card text-card-foreground rounded-lg border">
               <p>{msg}</p>
             </div>
           ))}
